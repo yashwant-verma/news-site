@@ -9,7 +9,7 @@ function fixNav() {
     }
 }
 
- const apiKey = '3da508ea232c44a98cdcfb0a70217910';
+ const apiKey = '';
  const url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=9&apiKey=${apiKey}`;
 
  async function fetchNews() {
